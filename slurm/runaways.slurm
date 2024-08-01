@@ -13,4 +13,4 @@
 source /mnt/home/twagg/.bashrc
 conda activate cogsworth
 
-python /mnt/home/twagg/runaways/runaway_pop.py
+python /mnt/home/twagg/runaways/src/generate_runaway_pop.py
