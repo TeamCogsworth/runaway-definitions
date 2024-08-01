@@ -12,7 +12,7 @@ p = cogsworth.pop.Population(10_000_000, final_kstar1=[13, 14],
                                 "cluster_radius": 1 * u.pc,
                                 "n_per_cluster": 10000,
                              },
-                             velocity_dispersion=5 * u.km / u.s,
+                             v_dispersion=5 * u.km / u.s,
                              max_ev_time=200 * u.Myr,
                              store_entire_orbits=False)
 p.create_population()
